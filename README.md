@@ -1,54 +1,29 @@
-# React + TypeScript + Vite
+# 🚀 Portfolio de [Tu Nombre]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido a mi portafolio! 🎨 Aquí encontrarás algunos de mis proyectos más destacados y más sobre mí.  
 
-Currently, two official plugins are available:
+## 🌟 Sobre mí  
+Desarrollador apasionado por la tecnología y la creación de experiencias digitales. Me especializo en [tu stack principal: Python, JavaScript, Reflex, etc.] y disfruto resolviendo problemas con código limpio y eficiente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Tecnologías que uso  
+- 🐍 Python & Reflex  
+- 🌐 HTML, CSS, JavaScript  
+- ⚛️ React & Next.js  
+- 🗄️ Bases de datos (MySQL, PostgreSQL, MongoDB)  
+- ☁️ Despliegue en Digital Ocean  
 
-## Expanding the ESLint configuration
+## 📂 Proyectos Destacados  
+🚧 *Aquí puedes añadir una lista de tus proyectos más importantes con enlaces:*  
+- 🎨 **[Scoutalyst](#)** - Breve descripción del proyecto  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📜 Mi CV  
+📄 Puedes descargar mi CV [aquí](./ruta/al/cv.pdf)  
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 📬 Contacto  
+📧 **Email:** [tu-email@example.com](mailto:tu-email@example.com)  
+💼 **LinkedIn:** [linkedin.com/in/tuusuario](https://linkedin.com/in/tuusuario)  
+🐙 **GitHub:** [github.com/alegamezz](https://github.com/alegamezz)  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
