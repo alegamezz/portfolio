@@ -26,4 +26,4 @@ Desarrollador apasionado por la tecnología y la creación de experiencias digit
 
 ---
 
-Espero que te guste este `README.md`. Si quieres personalizarlo más, dime y lo adaptamos. 🚀😃
+
