@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Scrollbar para navegadores Webkit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Ancho de la barra */
+}
+
+/* Fondo de la scrollbar */
+::-webkit-scrollbar-track {
+  background: #1a1a1a; /* Color del fondo */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Barra en sí */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #6b46c1, #805ad5); /* Degradado */
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Cuando pasas el cursor sobre la scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #805ad5, #9f7aea);
+}
